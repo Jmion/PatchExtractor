@@ -302,7 +302,7 @@ if __name__ == "__main__":
     
     ./extractPatches.py /dhlabdata4/mion/P2PaLA/work/results/prod/ /dhlabdata4/mion/P2PaLA/work/results/prod/page /dhlabdata4/mion/P2PaLA/work/results/prod/patches/ /dhlabdata4/mion/P2PaLA/work/results/prod/dataframe/''')
     parser.add_argument('image_directory', metavar='imgDir', type=str, 
-                        help='directory containing the source images.')
+                        help='directory containing the source images. The images must end in *.jpg')
     parser.add_argument('xml_directory', metavar='xmlDir', type=str, 
                         help='directory containing the xml.')
     parser.add_argument('patch_save_dir', metavar='patchDir', type=str, 
