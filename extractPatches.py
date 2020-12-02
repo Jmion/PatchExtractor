@@ -317,9 +317,7 @@ if __name__ == "__main__":
     parser.add_argument("--disable_progress_bar", type=bool, default=False,
                         help="dissables progress bar")
 
-    parser.add_argument("--page",metavar="page", type=str, help="page name, jpg filename of the page to run the extraction on")
-    
-    parser.add_argument("--log", metavar="log", type=bool, help="" ,default=False)
+    parser.add_argument("--page",metavar="page", type=str, help="page name, jpg filename of the page to run the extraction on. Usefull for debuging if there is a crash on a specific page.")
     
     
     args = parser.parse_args()
