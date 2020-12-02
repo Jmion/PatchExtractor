@@ -27,7 +27,7 @@ This script is to be ruin after running p2pala to extract the baselines out of h
 around the baseline. These patches will be saved to a directory to allow for processing with htr methods.
 
 positional arguments:
-  imgDir                directory containing the source images.
+  imgDir                directory containing the source images.  The images must end in *.jpg
   xmlDir                directory containing the xml.
   patchDir              directory where the patches will be saved. If non existant will be created
   dfDir                 Locations where the dataframes contains x_min, y_min, x_max, y_max, filename, pagename; will be saved as a csv. If the directory does not exist
