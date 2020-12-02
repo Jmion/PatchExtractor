@@ -44,3 +44,5 @@ optional arguments:
   --page page           page name, jpg filename of the page to run the extraction on. Usefull for debuging if there is a crash on a specific page.
 
 ```
+
+If you want to run it as an executable file please modify the shabang in the extractPatches.py to point to your conda environment that you just installed.
