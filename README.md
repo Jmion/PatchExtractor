@@ -15,7 +15,7 @@ conda env create -f environment.yml
 conda activate patchExtract
 ```
 
-One that is done do ahead and run ```python extractPatches.py --help``` to see the help page and parameters available.
+Once that is done do ahead and run ```python extractPatches.py --help``` to see the help page and parameters available.
 
 Please find below the help page:
 
